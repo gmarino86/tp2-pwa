@@ -1,12 +1,12 @@
 {
-    "theme_color": "#030303",
-    "background_color": "#b8e986",
+    "theme_color": "#02b1c8",
+    "background_color": "#02b1c8",
     "display": "standalone",
     "scope": "/",
-    "start_url": "index.html",
-    "name": "TP2 Gaston Marino",
-    "short_name": "TP2",
-    "description": "Entrega del TP2",
+    "start_url": "/",
+    "name": "Rick N Morty",
+    "description": "TP2 PWA",
+    "short_name": "ricknmorty",
     "icons": [
         {
             "src": "icons/icon-192x192.png",
