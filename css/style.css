@@ -35,3 +35,82 @@ body {
   background-color: #02b1c8 !important;
   border-color: #67df6f !important;
 }
+
+#respuesta {
+  background: #ffffffad;
+  height: 65vh;
+  margin: auto;
+  border-radius: 5px;
+  margin-top: 20px;
+  overflow: scroll;
+}
+
+#spinner {
+  display: none;
+  background: #ffffffad;
+  height: 65vh;
+  margin: auto;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+.spinner {
+  padding-top: 25vh;
+}
+
+#respuesta::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+
+#respuesta::-webkit-scrollbar:vertical {
+  width: 10px;
+}
+
+#respuesta::-webkit-scrollbar-button:increment,
+#respuesta::-webkit-scrollbar-button {
+  display: none;
+}
+
+#respuesta::-webkit-scrollbar:horizontal {
+  height: 10px;
+}
+
+#respuesta::-webkit-scrollbar-thumb {
+  background-color: #797979;
+  border-radius: 20px;
+  border: 2px solid #f1f2f3;
+}
+
+#respuesta::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+span {
+  color: #02b1c8;
+  font-size: small;
+}
+
+#favorite {
+  background: #ffffffad;
+  height: 65vh;
+  margin: auto;
+  border-radius: 5px;
+  margin-top: 20px;
+  overflow: scroll;
+}
+
+#trailers {
+  height: 65vh;
+  margin: auto;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.textRnMmENU {
+  font-size: 2rem !important;
+  font-family: "Schoolbell";
+  line-height: 1;
+  color: #02b1c8 !important;
+  text-shadow: 0.02em 0.02em 0.02em #7ffa67, -0.02em -0.02em 0.02em #7ffa67,
+    0 0 0.2em #7ffa67 !important;
+  animation: textShadow 2s linear infinite alternate;
+}
